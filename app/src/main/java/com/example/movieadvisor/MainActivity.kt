@@ -37,6 +37,7 @@ fun getMovies(genre: String) : List<String> {
     }
 }
 
+
 fun getDescription(genre: String) : List<String> {
     return when (genre) {
         "Action" -> listOf("Action films are a film genre where action sequences, such as fighting, stunts, car chases or explosions, take precedence over elements like characterization or complex plotting. The action typically involves individual efforts on the part of the hero, in contrast with most war films.")
